@@ -1,4 +1,4 @@
-# PythonForTheFun
+# Python For The Fun
 Some test in Python.
 
 A few tests in Python to familiarize yourself with this powerful language, 
