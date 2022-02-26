@@ -1,0 +1,7 @@
+Visualiser de la data avec Python
+
+Python excelle dans le monde de la data science, il sera dommage de ne pas explorer cette partie 
+qu’offre ce language de programmation. 
+
+Je vous propose donc de visualiser de la data avec la librairie matplotlib.
+Voir le Script Data_Python.py
