@@ -5,7 +5,7 @@
 
 # le prix de l'ordinateur est inférieur à 1000€
 # print(computer_price <= wallet)  # boolean True / False
-# if wallet <= computer_price or computer_price > 1000:
+#  if wallet <= computer_price or computer_price > 1000:
 # print("L'achat est possible !")
 # wallet = wallet - computer_price (écriture simplifier)
 # wallet -= computer_price
@@ -122,15 +122,15 @@ print("La moyenne des éléves est de {}".format(result))
 # print("Vous étes le client n° ", num_client)
 
 # for each : pour chaque valeur d'une liste donnée
-# print("Email envoyé à : mention.herve@gmail.com")
-# print("Email envoyé à : mention@gmail.be")
-# print("Email envoyé à : herve@gmail.yt")
+# print("Email envoyé à : test-name@gmail.com")
+# print("Email envoyé à : first-namen@gmail.com")
+# print("Email envoyé à : tom@gmail.com")
 
 # Lister les Emails
-emails = ['mention.herve@gmail.com', 'mention@gmail.be', 'mention@yahoo.be', 'dark@proton.com', 'herve@gmail.yt']
+emails = ['tom@gmail.com', 'test-name@gmail.be', 'first-name@yahoo.be', 'dark@proton.com', 'second-mail@gmail.com']
 
 # blacklist
-blacklist = ['mention@yahoo.be', 'dark@proton.com']
+blacklist = ['paul@yahoo.be', 'dark@proton.com']
 
 # pour chaqu'une des valeurs, j'affiche "Email envoyé à [INSERER l'Email]"
 # pour chaque email depuis ma liste d'email
