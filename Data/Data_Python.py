@@ -4,7 +4,7 @@
 from matplotlib import pyplot as plt
 
 # Les valeurs pour l'axe X
-# Modification des valeurs
+
 x = [1, 2, 3, 4]
 
 # Les valeurs pour l'axe Y
