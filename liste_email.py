@@ -8,15 +8,15 @@ for num_client in range(1, 6):
  print("Vous étes le client n° ", num_client)
 
 #for each : pour chaque valeur d'une liste donnée
- print("Email envoyé à : mention.herve@gmail.com")
- print("Email envoyé à : mention@gmail.be")
- print("Email envoyé à : herve@gmail.yt")
+ print("Email envoyé à : tom@gmail.com")
+ print("Email envoyé à : pierre@gmail.be")
+ print("Email envoyé à : eric@gmail.yt")
 
 # Lister les Emails
-emails = ['mention.herve@gmail.com', 'mention@gmail.be', 'mention@yahoo.be', 'dark@proton.com', 'herve@gmail.yt']
+emails = ['tom@gmail.com', 'pierre@gmail.be', 'louis@yahoo.be', 'dark@proton.com', 'eric@gmail.yt']
 
 # blacklist
-blacklist = ['mention@yahoo.be', 'dark@proton.com']
+blacklist = ['louis@yahoo.be', 'dark@proton.com']
 
 # pour chaqu'une des valeurs, j'affiche "Email envoyé à [INSERER l'Email]"
 # pour chaque email depuis ma liste d'email
