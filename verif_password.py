@@ -4,11 +4,11 @@ password = input("Entrer votre mot de passe : ")
 password_lenght = len(password)
 
 # vérifier si le mot de passe possède 8 caractère
- if password_lenght <= 8:
+if password_lenght <= 8:
  print("Mot de passe trop court !")
-   elif 8 < password_lenght <= 12:
+elif 8 < password_lenght <= 12:
  print("Mot de passe moyen !")
-   else:
+else:
  print("Mot de passe parfait !")
 
  print(password)
