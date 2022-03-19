@@ -4,15 +4,16 @@ price = 777
 while price in range(1, 1000):
     # entrer le numero
     number = int(input("Entrer un prix"))
-    if number == price:
+if number == price:
 
         print("C'est gagne!")
         print("Fin du jeu")
-    break
-    elif number > price:
+        break
 
-        print("C'est moins!")
+elif number > price:
 
-    else number < price:
+ print("C'est moins!")
 
-        print("C'est plus!")
+else number < price:
+
+print("C'est plus!")
