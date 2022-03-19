@@ -10,7 +10,7 @@ if number == price:
 
         print("C'est gagne!")
         print("Fin du jeu")
-        #break
+        #break, reste 
 elif number > price:
 
         print("C'est moins!")
@@ -18,7 +18,7 @@ elif number > price:
 else: number < price
 
 print("C'est plus!")
-
+                    
 
 # Le jeu du juste prix
 # choisir le prix gagnant
