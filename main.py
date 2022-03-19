@@ -1,40 +1,4 @@
-# code
 
-# wallet = 5000
-# computer_price = 50000
-
-# le prix de l'ordinateur est inférieur à 1000€
-# print(computer_price <= wallet)  # boolean True / False
-#  if wallet <= computer_price or computer_price > 1000:
-# print("L'achat est possible !")
-# wallet = wallet - computer_price (écriture simplifier)
-# wallet -= computer_price
-# afficher le wallet après l'achat
-# else:
-# print("L'achat est impossible, vous n'avez que " + str(wallet) + "€")
-# ou
-# print("L'achat est impossible, vous n'avez que {}€".format(wallet))
-
-# text = ("L'achat est possible !", "L'achet est implossible !")[computer_price <= 1000]
-# print(text)
-
-# print(wallet)
-
-# exemple de vérification de mot de passe
-# password = input("Entrer votre mot de passe : ")
-# variable pour le nombre de caractère le nombre de caractère du password
-# password_lenght = len(password)
-
-# vérifier si le mot de passe possède 8 caractère
-# if password_lenght <= 8:
-# print("Mot de passe trop court !")
-# elif 8 < password_lenght <= 12:
-# print("Mot de passe moyen !")
-# else:
-# print("Mot de passe parfait !")
-
-# print(password)
-# print(password_lenght)
 
 # place de cinéma
 # récolter l'age de la personne "Quel est votre âge ?"
@@ -175,20 +139,7 @@ while months <= 24 :
     months += 1
 
 
-# Le jeu du juste prix
-# choisir le prix gagnant
-# price = 777
-# while price in range(1, 1000):
-# entrer le numero
-# number = int(input("Entrer un prix"))
-# if number == price:
-# print("C'est gagne!")
-# print("Fin du jeu")
-# break
-# elif number > price:
-# print("C'est moins!")
-# elif number < price:
-# print("C'est plus!")
+
 
 # fonction
 def welcome():
