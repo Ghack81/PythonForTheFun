@@ -7,3 +7,4 @@ with sr.Microphone() as source:
 print(r.recognize_google (audio))
 
 # Verify import speech_recognition
+# Search the bug
