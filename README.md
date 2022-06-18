@@ -11,12 +11,12 @@ otherwise I will put the link to the source(s).
 
 In the file "main.py" there are many tests :
 
-- Exemple de vérification de mot de passe;
-- Place de cinéma;
-- Creer une liste qui va stocker des pseudo pour un jeu en ligne;
-- Recuperer le dernier element de la liste;
-- Injecter une valeur dans une liste;
-- Changement de valeur dans une liste;
-- Exemple de calcule de moyenne;
-- Le jeu du juste prix;
-- and somes tests;
+- Sample Password Verification;
+- Cinema ticket;
+- Create a list that will store nicknames for an online game;
+- Retrieve the last item in the list;
+- Injector a value into a list;
+- Change of value in a list;
+- Example of average calculation;
+- The fair price game;
+- and some tests;
