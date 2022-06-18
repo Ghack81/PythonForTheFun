@@ -8,3 +8,4 @@ print(r.recognize_google (audio))
 
 # Verify import speech_recognition
 # Search the bug
+# https://pypi.org/project/SpeechRecognition/
