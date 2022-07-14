@@ -24,4 +24,7 @@ In the file "main.py" there are many tests :
 And then there are somes tests :
 
 - Download Youtube videos in Python;
-
+- Calculate a hash of a file;
+- Extract Text From Pdf with Python;
+- Language Detection using Python;
+- Voice Recorder in Python;
