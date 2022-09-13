@@ -1,4 +1,5 @@
 #Generate Barcode using Python
+#pip install python-barcode
 
 import barcode
 from barcode.write import ImageWrite
