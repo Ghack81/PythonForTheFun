@@ -21,10 +21,12 @@ In the file "main.py" there are many tests :
 - The fair price game;
 - and some tests;
 
-And then there are somes tests :
+And then there are some tests :
 
 - Download Youtube videos in Python;
 - Calculate a hash of a file;
 - Extract Text From Pdf with Python;
 - Language Detection using Python;
 - Voice Recorder in Python;
+ And some links for the projects :
+- Install pyautogui => py -m pip install pyautogui
