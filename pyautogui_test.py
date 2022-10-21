@@ -1,4 +1,5 @@
 # Serch for pyautogui
+# py -m pip install pyautogui
 import PyAutoGUI
 
 
