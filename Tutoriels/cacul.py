@@ -1,3 +1,4 @@
+# Fonction addition
 def addition() :
     result = 65 + 5
     return result
