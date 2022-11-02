@@ -8,3 +8,14 @@ def  parabole(x):
     return y
 
 print(parabole(-10))
+
+#Aire d'un cercle ?
+#La surface d'un cercle = rayon2 * 3.14
+
+def aire_cercle(rayon):
+     aire = rayon **2 * 3.14
+     return aire
+
+print(aire_cercle(10))
+#----------------------#
+print(aire_cercle(20))
