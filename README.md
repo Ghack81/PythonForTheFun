@@ -28,5 +28,8 @@ And then there are some tests :
 - Extract Text From Pdf with Python;
 - Language Detection using Python;
 - Voice Recorder in Python;
+- Cryptage;
+- Décryptage;
  And some links for the projects :
 - Install pyautogui => py -m pip install pyautogui
+
