@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: black;
+            color: limegreen;
+            font-family: monospace;
+            font-size: 16px;
+            overflow: hidden;
+        }
+        #matrix-text {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    </style>
+</head>
+<body>
+    <div id="matrix-text"></div>
+
+    <script>
+        const matrixText = document.getElementById("matrix-text");
+
+        // Generate random characters
+        function getRandomChar() {
+            const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+";
+            return chars[Math.floor(Math.random() * chars.length)];
+        }
+
+        // Create falling text effect
+        function createMatrixEffect() {
+            const numRows = 100;
+            const numCols = 100;
+            const speed = 100; // Adjust speed (milliseconds)
+
+            let matrix = Array.from({ length: numRows }, () => Array(numCols).fill(" "));
+            let interval;
+
+            function updateMatrix() {
+                for (let row = numRows - 1; row > 0; row--) {
+                    matrix[row] = matrix[row - 1].slice();
+                }
+                matrix[0] = Array.from({ length: numCols }, getRandomChar);
+                matrixText.textContent = matrix.map(row => row.join("")).join("\n");
+            }
+
+            interval = setInterval(updateMatrix, speed);
+        }
+
+        createMatrixEffect();
+    </script>
+</body>
+</html>
