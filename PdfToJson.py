@@ -29,7 +29,7 @@ def extract_pdf_data(pdf_path):
     with open(pdf_path, "rb") as pdf_file:
         pdf_reader = PyPDF2.PdfReader(pdf_file)
         pdf_data["text"] = pdf_reader.pages[0].extract_text()
-        pdf_data["metadata"] = pdf_reader.getDocumentInfo()
+        pdf_data["metadata"] = pdf_reader.metadata
     return pdf_data
 
 def convert_to_json(pdf_data):
