@@ -45,3 +45,8 @@ def convert_to_json(pdf_data):
 
 if __name__ == "__main__":
     app.run(debug=True)
+    """Correction de l'erreur `PyPDF2.errors.DeprecationError: getDocumentInfo`, 
+      en utilisant la méthode `metadata` à la place :
+       N'oubliez pas d'ajouter des styles CSS et des scripts JavaScript à votre interface HTML 
+       pour améliorer l'apparence et l'interaction avec l'utilisateur.!
+    """
