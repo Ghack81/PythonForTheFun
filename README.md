@@ -34,3 +34,4 @@ And then there are some tests :
 - Install pyautogui => py -m pip install pyautogui
 
 
+## For my student
